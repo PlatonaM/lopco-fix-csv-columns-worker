@@ -121,7 +121,6 @@ try:
         raise RuntimeError(resp.status_code)
 except Exception as ex:
     try:
-        pass
         os.remove("{}/{}".format(data_cache_path, output_file))
     except Exception:
         pass

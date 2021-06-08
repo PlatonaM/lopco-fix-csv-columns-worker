@@ -1,4 +1,8 @@
-#### Description
+## lopco-fix-csv-columns-worker
+
+Removes or adds columns, based on a reference header, to a CSV file. Alternatively, an error can be generated to cancel a job.
+
+### Description
 
     {
         "name": "Fix CSV Columns",

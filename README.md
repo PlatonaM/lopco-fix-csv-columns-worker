@@ -2,6 +2,28 @@
 
 Removes or adds columns, based on a reference header, to a CSV file. Alternatively, an error can be generated to cancel a job.
 
+### Configuration
+
+`delimiter`: Delimiter used in the CSV file.
+
+`reference_header`: Serves as a reference for validation. 
+
+`abort_on_unknown`: Set to `0` or `1` to control if a job is aborted if an unknown column is found .
+
+`abort_on_missing`: Set to `0` or `1` to control if a job is aborted if a column is missing.
+
+### Inputs
+
+Type: single
+
+`source_csv`: CSV file to check.
+
+### Outputs
+
+Type: single
+
+`output_file`: Input CSV file.
+
 ### Description
 
     {
